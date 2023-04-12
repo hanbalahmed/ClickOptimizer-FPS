@@ -28,7 +28,7 @@ for i in range(len(options_contents)):
 # Modify the optionsof.txt file
 for i in range(len(optionsof_contents)):
     if optionsof_contents[i].startswith("ofRenderDistanceChunks"):
-        optionsof_contents[i] = "ofRenderDistanceChunks:8\n"
+        optionsof_contents[i] = "ofRenderDistanceChunks:2\n"
     elif optionsof_contents[i].startswith("ofFastRender"):
         optionsof_contents[i] = "ofFastRender:true\n"
     elif optionsof_contents[i].startswith("ofFastMath"):
